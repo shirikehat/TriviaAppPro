@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="TriviaApp.Views.Login"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Login">
+
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        <Label
+            FontSize="50"
+            HorizontalOptions="Center"
+            Text="Login page"
+            TextColor="HotPink" />
+        <Entry Placeholder="הכנס שם" PlaceholderColor="LightGrey" />
+        <Entry
+            IsPassword="True"
+            Placeholder="הכנס סיסמה"
+            PlaceholderColor="LightGrey" />
+        <Button Text="התחבר" WidthRequest="150" />
+        <Label />
+    </VerticalStackLayout>
+
+</ContentPage>
